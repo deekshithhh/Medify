@@ -9,10 +9,11 @@ span{
     color:black
 }
 .Header{
-    font-family: Poppins;
+font-family: Poppins;
 font-size: 14px;
 font-weight: 400;
 display: flex;
+height: 40 px;
 align-items: center;
 justify-content: center;
 background: #2AA7FF;
