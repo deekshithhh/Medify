@@ -48,6 +48,7 @@ export const theme = createTheme({
       main: "#2AA7FF",
       green: "#00A500",
       secondary: "#1B3C74",
+      third:"#eaf2ff"
     },
   },
   components: {
