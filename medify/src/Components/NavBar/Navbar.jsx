@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <header>
-        <Box>
+        <Box style={{height:'6em'}}>
       <Box bgcolor="#2AA7FF" >
         <Typography cfontSize={14} textAlign="center" color="#fff">
           The health and well-being of our patients and their health care team
@@ -28,7 +28,13 @@ export default function Navbar() {
                 <span>Surgeries</span>
                 <span>Software Provider</span>
                 <span>Facilities</span>
-                <Button variant="contained" disableElevation>Bookings</Button>
+                <Button
+     
+        variant="contained" 
+      
+      
+        disableElevation
+      >Bookings</Button>
             </Stack>
                
             </Stack>

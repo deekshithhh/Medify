@@ -3,6 +3,11 @@ import './App.css';
 import { Outlet } from "react-router-dom";
 import { CssBaseline } from "@mui/material";
 import Navbar from './Components/NavBar/Navbar';
+import HeroSection from './Components/Herosection/Herosection';
+import SearchLocation from './Components/Search/Search';
+import SearchHospital from './Components/Search/Search';
+
+
 
 function App() {
   return (
@@ -10,6 +15,8 @@ function App() {
     <CssBaseline />
     <Outlet />
       <Navbar/>
+      <HeroSection/>
+      <SearchHospital/>
     </div>
   );
 }
