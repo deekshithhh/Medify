@@ -9,6 +9,8 @@ import SearchHospital from "./Components/Search/Search";
 import Footer from "./Components/Footer/Footer";
 import AccordionExpandIcon from "./Components/Accordion/Accordion";
 import MobileDownload from "./Components/Download/Download";
+import IconLayout from "./Components/IconLayout/IconLayout";
+import Carousel from "./Components/Carousel/Carousel";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Navbar />
       <HeroSection />
       <SearchHospital />
+      <IconLayout/>
+      <Carousel/>
       <MobileDownload/>
       <AccordionExpandIcon />
       <Footer />

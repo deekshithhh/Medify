@@ -1,4 +1,4 @@
-import { MenuItem, Select, Button, InputAdornment, Box } from "@mui/material";
+import { MenuItem, Select, Button, InputAdornment, Box, Container } from "@mui/material";
 import { useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import axios from "axios";
@@ -56,6 +56,7 @@ export default function SearchHospital() {
   };
 
   return (
+    <Container>
     <Box
       component="form"
       onSubmit={handlesubmit}
@@ -123,5 +124,6 @@ export default function SearchHospital() {
         Submit
       </Button>
     </Box>
+    </Container>
   );
 }
