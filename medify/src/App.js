@@ -11,6 +11,7 @@ import AccordionExpandIcon from "./Components/Accordion/Accordion";
 import MobileDownload from "./Components/Download/Download";
 import IconLayout from "./Components/IconLayout/IconLayout";
 import Carousel from "./Components/Carousel/Carousel";
+import Specialization from "./Components/Specialization/Specialization";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <SearchHospital />
       <IconLayout/>
       <Carousel/>
+      <Specialization/>
       <MobileDownload/>
       <AccordionExpandIcon />
       <Footer />
