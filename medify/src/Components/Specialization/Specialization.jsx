@@ -23,7 +23,7 @@ export default function Specialization() {
     ]
     
     return (
-        <Box py={6} >
+        <Box py={6} bgcolor={'#eaf2ff'} >
             <Container sx={{ textAlign: 'center' }}>
                 <Typography variant='h2' mb={6} fontFamily='Poppins'>
                     Find by specialization

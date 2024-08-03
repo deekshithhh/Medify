@@ -7,11 +7,12 @@ import HeroSection from "./Components/Herosection/Herosection";
 import SearchLocation from "./Components/Search/Search";
 import SearchHospital from "./Components/Search/Search";
 import Footer from "./Components/Footer/Footer";
-import AccordionExpandIcon from "./Components/Accordion/Accordion";
+import AccordionExpandIcon from "./Components/FAQ/FAQ";
 import MobileDownload from "./Components/Download/Download";
 import IconLayout from "./Components/IconLayout/IconLayout";
 import Carousel from "./Components/Carousel/Carousel";
 import Specialization from "./Components/Specialization/Specialization";
+import Specialists from "./Components/Specialist/Specialist";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <IconLayout/>
       <Carousel/>
       <Specialization/>
+      <Specialists/>
       <MobileDownload/>
       <AccordionExpandIcon />
       <Footer />

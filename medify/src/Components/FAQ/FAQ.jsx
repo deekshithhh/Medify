@@ -18,28 +18,28 @@ export default function AccordionExpandIcon() {
   ];
   return (
     <Container>
-      <Box >
-        <Stack  alignItems={'center'}>
-        <Typography variant="h3" component='h3'>Get your Answer</Typography>
-        <Typography variant="h2" component='h2'>Frequently Asked Questions</Typography>
+      <Box>
+        <Stack alignItems={"center"}>
+          <Typography variant="h3" component="h3" fontFamily="Poppins">
+            Get your Answer
+          </Typography>
+          <Typography variant="h2" component="h2">
+            Frequently Asked Questions
+          </Typography>
         </Stack>
-        
       </Box>
-      <Stack direction={{ md: "row" }} alignItems={'center'}  spacing={10}>
+      <Stack direction={{ md: "row" }} alignItems={"center"} spacing={10}>
         <Box component={"img"} src={faqimage} style={{ width: "35%" }}></Box>
         <Box>
           {FaqHeader.map((question) => (
-            <Accordion elevation={'0'}>
-              <AccordionSummary
-                expandIcon={<AddIcon />}
-               
-               
-              >
+            <Accordion elevation={"0"}>
+              <AccordionSummary expandIcon={<AddIcon />}>
                 <Typography variant="h5">{question}</Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  We are the best network hospital in the country with advanced labs and trained staff.
+                  We are the best network hospital in the country with advanced
+                  labs and trained staff.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -48,6 +48,4 @@ export default function AccordionExpandIcon() {
       </Stack>
     </Container>
   );
-
-
 }
